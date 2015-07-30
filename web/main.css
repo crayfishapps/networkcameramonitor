@@ -1,0 +1,92 @@
+body, p, h1, h2, h3, h4, table, td, th, ul, ol, textarea, input, .success, .error {
+    font-family: verdana,helvetica,arial,sans-serif;
+    font-size:14px;
+}
+.greenbutton, .greenbutton:link, .greenbutton:visited {
+}
+.greenbutton:hover, .greenbutton:active {
+    background-color:#7A991A;
+}
+.greenbutton {
+    background-color: #98BF21;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 1px;
+    outline: 1px solid #98BF21;
+    padding: 3px 0 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+}
+.input {
+    border: 1px solid #FFFFFF;
+    background: #DFF2BF;
+}
+label {
+    display: block;
+    color: #000000;
+    width: 150px;
+    float: left;
+    margin: 2px 4px 6px 4px;
+    text-align: right;
+}
+label em {        
+    display: block;        
+    color: #060;        
+    font-size: 75%;        
+    font-style: normal;        
+    text-transform: uppercase;      
+}
+br {
+    clear: left;
+}
+fieldset {
+    border:  1px solid;
+    color: #4F8A10;
+    width: 350px;
+}
+.success, .error {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('success.png');
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('error.png');
+}
+table {
+    border-collapse: collapse;
+}
+td, th {
+    font-size: 0.75em;
+    border: 1px solid #98bf21;
+    padding: 3px 7px 2px 7px;
+    vertical-align: top;
+}
+td {
+    min-width: 100px;
+}
+th {
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #A7C942;
+    color: #ffffff;
+}
+tr.alt td {
+    color: #000000;
+    background-color: #EAF2D3;
+}
+
